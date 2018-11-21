@@ -47,10 +47,10 @@ class FootballPoolExtensionRankingScoreBreakdown {
 										%s</tr>
 									</thead>
 									<tbody>'
-									, __( 'user', 'football-pool' )
-									, __( 'full', 'football-pool' )
-									, __( 'toto', 'football-pool' )
-									, __( 'points', 'football-pool' )
+									, __( 'User', 'football-pool' )
+									, __( 'Correct Outcome', 'football-pool' )
+									, __( 'Correct Result', 'football-pool' )
+									, __( 'Total Points', 'football-pool' )
 									, ( $all_user_view ? '<th></th>' : '' )
 							);
 		return $template_start;
