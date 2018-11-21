@@ -68,7 +68,6 @@ class FootballPoolExtensionRankingScoreBreakdown {
 									<td style="width:3em; text-align: right;">%rank%.</td>
 									<td><a href="%user_link%">%user_avatar%%user_name%</a></td>
 									<td class="num-predictions">%num_predictions%</td>
-									<td class="score-breakdown question">%breakdown_question_points%</td>
 									<td class="score-breakdown full">%breakdown_full_points%</td>
 									<td class="score-breakdown toto">%breakdown_toto_points%</td>
 									<td class="score-breakdown goalbonus">%breakdown_goalbonus_points%</td>
@@ -81,7 +80,6 @@ class FootballPoolExtensionRankingScoreBreakdown {
 									<td style="width:3em; text-align: right;">%rank%.</td>
 									<td><a href="%user_link%">%user_avatar%%user_name%</a></td>
 									<td class="num-predictions">%num_predictions%</td>
-									<td class="score-breakdown question">%breakdown_question_points%</td>
 									<td class="score-breakdown full">%breakdown_full_points%</td>
 									<td class="score-breakdown toto">%breakdown_toto_points%</td>
 									<td class="score-breakdown goalbonus">%breakdown_goalbonus_points%</td>
