@@ -41,21 +41,15 @@ class FootballPoolExtensionRankingScoreBreakdown {
 										<tr>
 										<th></th>
 										<th class="user">%s</th>
-										<th class="num-predictions">%s</th>
 										<th class="score-breakdown full">%s</th>
 										<th class="score-breakdown toto">%s</th>
-										<th class="score-breakdown goalbonus">%s</th>
-										<th class="score-breakdown goaldiff">%s</th>
 										<th class="score">%s</th>
 										%s</tr>
 									</thead>
 									<tbody>'
 									, __( 'user', 'football-pool' )
-									, __( 'predictions', 'football-pool' )
 									, __( 'full', 'football-pool' )
 									, __( 'toto', 'football-pool' )
-									, __( 'goal bonus', 'football-pool' )
-									, __( 'goal diff', 'football-pool' )
 									, __( 'points', 'football-pool' )
 									, ( $all_user_view ? '<th></th>' : '' )
 							);
@@ -67,11 +61,8 @@ class FootballPoolExtensionRankingScoreBreakdown {
 			$ranking_template = '<tr class="%css_class%">
 									<td style="width:3em; text-align: right;">%rank%.</td>
 									<td><a href="%user_link%">%user_avatar%%user_name%</a></td>
-									<td class="num-predictions">%num_predictions%</td>
 									<td class="score-breakdown full">%breakdown_full_points%</td>
 									<td class="score-breakdown toto">%breakdown_toto_points%</td>
-									<td class="score-breakdown goalbonus">%breakdown_goalbonus_points%</td>
-									<td class="score-breakdown goaldiff">%breakdown_goaldiff_points%</td>
 									<td class="ranking score">%points%</td>
 									<td>%league_image%</td>
 									</tr>';
@@ -79,11 +70,8 @@ class FootballPoolExtensionRankingScoreBreakdown {
 			$ranking_template = '<tr class="%css_class%">
 									<td style="width:3em; text-align: right;">%rank%.</td>
 									<td><a href="%user_link%">%user_avatar%%user_name%</a></td>
-									<td class="num-predictions">%num_predictions%</td>
 									<td class="score-breakdown full">%breakdown_full_points%</td>
 									<td class="score-breakdown toto">%breakdown_toto_points%</td>
-									<td class="score-breakdown goalbonus">%breakdown_goalbonus_points%</td>
-									<td class="score-breakdown goaldiff">%breakdown_goaldiff_points%</td>
 									<td class="ranking score">%points%</td>
 									</tr>';
 		}
