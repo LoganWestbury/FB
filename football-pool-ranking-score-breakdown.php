@@ -42,7 +42,6 @@ class FootballPoolExtensionRankingScoreBreakdown {
 										<th></th>
 										<th class="user">%s</th>
 										<th class="num-predictions">%s</th>
-										<th class="score-breakdown question">%s</th>
 										<th class="score-breakdown full">%s</th>
 										<th class="score-breakdown toto">%s</th>
 										<th class="score-breakdown goalbonus">%s</th>
@@ -53,7 +52,6 @@ class FootballPoolExtensionRankingScoreBreakdown {
 									<tbody>'
 									, __( 'user', 'football-pool' )
 									, __( 'predictions', 'football-pool' )
-									, __( 'questions', 'football-pool' )
 									, __( 'full', 'football-pool' )
 									, __( 'toto', 'football-pool' )
 									, __( 'goal bonus', 'football-pool' )
